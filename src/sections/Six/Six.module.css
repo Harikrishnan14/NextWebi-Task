@@ -1,0 +1,22 @@
+.Six {
+    background-color: #121212;
+    height: 228px;
+    padding: 60px;
+}
+
+.title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.brandLogo {
+    height: 60px;
+    margin: 0 30px;
+    object-fit: contain;
+}
