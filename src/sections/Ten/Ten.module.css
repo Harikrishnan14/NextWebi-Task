@@ -1,0 +1,114 @@
+.Ten {
+    background-color: #121212;
+    padding: 60px;
+}
+
+.head {
+    margin-bottom: 3rem;
+    max-width: 85%;
+}
+
+.head h2 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.head p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.contents {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.left {
+    width: 489px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftBtn {
+    width: 100%;
+    height: 94px;
+    border-radius: 10px;
+    padding: 24px 48px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 10px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #1d1d1d;
+    }
+}
+
+.activeBtn {
+    background-color: #1B1B1B;
+}
+
+.divider {
+    height: 1px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #000000 0%, #FFFFFF 45%, #000000 100%);
+    margin: 1rem 0;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.item {
+    width: 285px;
+    height: 94px;
+    border-radius: 10px;
+    padding: 21px 45px;
+    background-color: #1B1B1B;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.item img {
+    width: 52px;
+    height: 52px;
+}
+
+.item span {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 10px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+    text-wrap: nowrap;
+}
