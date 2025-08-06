@@ -7,12 +7,12 @@ import Six from './sections/Six/Six'
 function App() {
 
   return (
-    <>
+    <div className='App'>
       <Header />
       <Second />
       <Six />
       <Seven />
-    </>
+    </div>
   )
 }
 

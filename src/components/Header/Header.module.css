@@ -1,13 +1,18 @@
-.Header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 4rem;
+.HeaderMain {
     background: transparent;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1490px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
 }
 
 .logo {
