@@ -74,14 +74,22 @@
     border-radius: 12px;
     gap: 8px;
     padding: 12px 20px;
-    background: #1468FB;
+    background-color: #1468FB;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
 
     font-family: Inter;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+
+    &:hover {
+        background-color: #347efd;
+    }
 }
 
 .innerSecond {
