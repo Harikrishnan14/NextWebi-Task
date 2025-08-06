@@ -45,7 +45,7 @@ const Twelve = () => {
                 </div>
                 <div className={styles.address}>
                     {addressData?.map((address) => (
-                        <div className={styles.gridItem}>
+                        <div className={styles.gridItem} key={address.id.toString()}>
                             <img src={address.flag} alt="" />
                             <h6>{address.country}</h6>
                             <p>{address.address}</p>
