@@ -1,0 +1,66 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    background: transparent;
+}
+
+.logo {
+    width: 151px;
+    height: 31px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.dropdownItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: 0.3s ease;
+
+    &:hover {
+        color: #cecece;
+    }
+}
+
+.contactBtn {
+    width: 103px;
+    height: 29px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #E6392A;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+        background-color: #e25a4e;
+    }
+}
