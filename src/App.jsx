@@ -6,6 +6,7 @@ import Second from './sections/Second/Second'
 import Seven from './sections/Seven/Seven'
 import Six from './sections/Six/Six'
 import Ten from './sections/Ten/Ten'
+import Twelve from './sections/Twelve/Twelve'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Eight />
       <Ten />
       <Eleven />
+      <Twelve />
     </div>
   )
 }
