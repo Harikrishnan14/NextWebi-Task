@@ -46,7 +46,7 @@ const Seven = () => {
             <div className={styles.innerSecond}>
                 <Accordion.Root type="single" collapsible defaultValue="item-1" className={styles.accordionRoot}>
                     {accordionData.map((data, index) => (
-                        <Accordion.Item value={`item-${index + 1}`} className={styles.accordionItem}>
+                        <Accordion.Item value={`item-${index + 1}`} key={data.id.toString()} className={styles.accordionItem}>
                             <Accordion.Header className={styles.accordionHeader}>
                                 <Accordion.Trigger className={styles.accordionTrigger}>
                                     <div className={styles.accordionTriggerInner}>
