@@ -1,0 +1,25 @@
+.Eleven {
+    background-color: #171717;
+    padding: 60px;
+}
+
+.head {
+    margin-bottom: 3rem;
+    max-width: 85%;
+}
+
+.head h2 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

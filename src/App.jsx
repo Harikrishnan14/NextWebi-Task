@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header/Header'
 import Eight from './sections/Eight/Eight'
+import Eleven from './sections/Eleven/Eleven'
 import Second from './sections/Second/Second'
 import Seven from './sections/Seven/Seven'
 import Six from './sections/Six/Six'
@@ -16,6 +17,7 @@ function App() {
       <Seven />
       <Eight />
       <Ten />
+      <Eleven />
     </div>
   )
 }
