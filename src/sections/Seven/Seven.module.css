@@ -1,0 +1,165 @@
+.Seven {
+    background-color: #000000;
+    padding: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+}
+
+.innerFirst {
+    flex: 1;
+    position: sticky;
+    top: 95px;
+}
+
+.first {
+    margin-bottom: 4rem;
+}
+
+.first h2 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+.first p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.square {
+    width: 387px;
+    height: 264px;
+    opacity: 1;
+    border-radius: 10px;
+    background-color: #1B1B1B;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.square h4 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.squareInner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.squareInner button {
+    width: 172px;
+    height: 48px;
+    border-radius: 12px;
+    gap: 8px;
+    padding: 12px 20px;
+    background: #1468FB;
+    color: #FFFFFF;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.innerSecond {
+    width: 641px;
+    color: white;
+}
+
+.accordionRoot {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.accordionItem {
+    background-color: #1B1B1B;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.accordionItem:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.accordionTrigger {
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.accordionTriggerInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.accordionTriggerInner h6 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.arrowIcon {
+    transition: transform 0.3s ease;
+    height: 24px;
+    width: 24px;
+}
+
+[data-state='open'] .arrowIcon {
+    transform: rotate(90deg);
+}
+
+.accordionTrigger p {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.accordionContent div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 8px 0;
+}
