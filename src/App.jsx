@@ -5,6 +5,7 @@ import Eleven from './sections/Eleven/Eleven'
 import Five from './sections/Five/Five'
 import Four from './sections/Four/Four'
 import Nine from './sections/Nine/Nine'
+import One from './sections/One/One'
 import Second from './sections/Second/Second'
 import Seven from './sections/Seven/Seven'
 import Six from './sections/Six/Six'
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
+      <One />
       <Second />
       <Three />
       <Four />
