@@ -1,0 +1,34 @@
+.Three {
+    padding: 60px;
+    background-color: #000000;
+}
+
+.first {
+    margin-bottom: 3rem;
+}
+
+.first h2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.first p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
