@@ -36,11 +36,19 @@ const Header = () => {
                         'Technologies',
                         'Our Work'
                     ].map((item, idx) => (
-                        <div key={idx}>
+                        <div key={idx} className={styles.dropdownWrapper}>
                             <span className={styles.dropdownItems}>
                                 {item}
                                 {item !== 'Our Work' && <img src={DownArrow} alt="" />}
                             </span>
+
+                            {item !== 'Our Work' && (
+                                <div className={styles.dropdownMenu}>
+                                    <p>Option 1</p>
+                                    <p>Option 2</p>
+                                    <p>Option 3</p>
+                                </div>
+                            )}
                         </div>
                     ))}
                 </div>

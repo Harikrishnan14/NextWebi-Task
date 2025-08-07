@@ -51,6 +51,33 @@
     cursor: pointer;
 }
 
+.dropdownWrapper {
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    min-width: 120px;
+    display: none;
+    z-index: 999;
+}
+
+.dropdownMenu p {
+    padding: 5px 0;
+    color: #000000;
+    font-size: 12px;
+}
+
+.dropdownWrapper:hover .dropdownMenu {
+    display: block;
+}
+
 .dropdownItems {
     display: flex;
     align-items: center;
