@@ -5,6 +5,7 @@
     left: 0;
     width: 100%;
     z-index: 99999;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
 .Header {
@@ -14,6 +15,14 @@
     max-width: 1490px;
     margin: 0 auto;
     padding: 2rem 4rem;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
