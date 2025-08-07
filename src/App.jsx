@@ -4,6 +4,7 @@ import Eight from './sections/Eight/Eight'
 import Eleven from './sections/Eleven/Eleven'
 import Five from './sections/Five/Five'
 import Four from './sections/Four/Four'
+import Nine from './sections/Nine/Nine'
 import Second from './sections/Second/Second'
 import Seven from './sections/Seven/Seven'
 import Six from './sections/Six/Six'
@@ -23,6 +24,7 @@ function App() {
       <Six />
       <Seven />
       <Eight />
+      <Nine />
       <Ten />
       <Eleven />
       <Twelve />
