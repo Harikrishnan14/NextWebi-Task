@@ -1,0 +1,85 @@
+.Five {
+    padding: 60px;
+    background-color: #000000;
+}
+
+.head {
+    margin-bottom: 3rem;
+}
+
+.head h2 {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+}
+
+.head p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.carousal {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+
+.carousalItem {
+    width: 85%;
+    margin: 0 auto;
+    height: 538px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.carousalItemFirst {
+    flex: 1;
+}
+
+.carousalItemFirst h4 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #010101;
+    margin-bottom: 1.5rem;
+}
+
+.carousalItemFirst p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    color: #010101;
+}
+
+.carousalItemSecond {
+    width: 619px;
+    height: 469px;
+    clip-path: polygon(100px 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.carousalItemSecond img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

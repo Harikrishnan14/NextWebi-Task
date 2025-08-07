@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Eight from './sections/Eight/Eight'
 import Eleven from './sections/Eleven/Eleven'
+import Five from './sections/Five/Five'
 import Four from './sections/Four/Four'
 import Second from './sections/Second/Second'
 import Seven from './sections/Seven/Seven'
@@ -18,6 +19,7 @@ function App() {
       <Second />
       <Three />
       <Four />
+      <Five />
       <Six />
       <Seven />
       <Eight />
