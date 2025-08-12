@@ -16,7 +16,7 @@
    ### `git clone https://github.com/Harikrishnan14/dummy-website.git`
 
    Then, navigate into the project folder:
-   ### `cd NextWebi-Task`
+   ### `cd dummy-website`
 
    Or alternatively, download the ZIP file from GitHub and extract it.
 
