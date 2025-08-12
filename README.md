@@ -13,7 +13,7 @@
 2. **Clone or Download the Code :**
 
    Clone the repository using the following command:
-   ### `git clone https://github.com/Harikrishnan14/NextWebi-Task.git`
+   ### `git clone https://github.com/Harikrishnan14/dummy-website.git`
 
    Then, navigate into the project folder:
    ### `cd NextWebi-Task`
@@ -30,7 +30,6 @@
    ### `npm run dev`
    
 2. After this, Go to 'http://localhost:5173'
-3. If you want to see the hosted website, Go to 'https://next-webi-task.vercel.app'
 
 # Packages Used:
 
